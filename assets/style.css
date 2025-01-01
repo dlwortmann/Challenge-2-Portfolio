@@ -222,7 +222,12 @@
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
   .run-buddy {
-    
+   background-image: url("https://unsplash.com/photos/man-on-running-field-9HI8UJMSdZA");
+   display: center;
+   background-size: cover;
+   background-position: center;
+   height: auto;
+   width: auto;
   }
   
   .led-wall {
