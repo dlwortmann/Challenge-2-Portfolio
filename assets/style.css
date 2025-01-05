@@ -104,6 +104,12 @@
   .hero-banner div {
     flex: 0 0 90%;
   }
+
+  .hero-banner img {
+    margin: 10px;
+    height: 275px;
+    width: 200px;
+  }
   
   .hero-banner h2 {
     background-color: var(--secondary);
@@ -222,48 +228,37 @@
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
   .run-buddy {
-   background-image: url("https://unsplash.com/photos/man-on-running-field-9HI8UJMSdZA");
-   display: center;
+   background-image: url("../assets/images/runnerbuddy.jpg");
    background-size: cover;
-   background-position: center;
    height: auto;
    width: auto;
   }
-  
   .led-wall {
-   background-image: url("https://unsplash.com/photos/man-on-running-field-9HI8UJMSdZA");
-   display: center;
+    background-image: url("../assets/images/ledwall.jpg");
    background-size: cover;
-   background-position: center;
    height: auto;
    width: auto;
   }
   
   .react-calc {
-   background-image: url("https://unsplash.com/photos/man-on-running-field-9HI8UJMSdZA");
-   display: center;
+    background-image: url("../assets/images/reactcalc.jpg");
    background-size: cover;
-   background-position: center;
    height: auto;
    width: auto;
   }
   
   .pastel-puzzles {
-   background-image: url("https://unsplash.com/photos/man-on-running-field-9HI8UJMSdZA");
-   display: center;
-   background-size: cover;
-   background-position: center;
-   height: auto;
-   width: auto;
-  }
-  
-  .surf-report {
-    background-image: url("https://unsplash.com/photos/man-on-running-field-9HI8UJMSdZA");
-    display: center;
+    background-image: url("../assets/images/pastelpuzzles.jpg");
     background-size: cover;
-    background-position: center;
     height: auto;
     width: auto;
+   }
+  
+  .surf-report {
+    background-image: url("../assets/images/surfreport.jpg");
+   background-size: cover;
+   height: auto;
+   width: auto;
   }
   
   /* media queries */
