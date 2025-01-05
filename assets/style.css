@@ -106,7 +106,6 @@
   }
 
   .hero-banner img {
-    margin: 10px;
     height: 275px;
     width: 200px;
   }
@@ -318,7 +317,7 @@
   
     .page-section > h2,
     .page-section > div {
-      flex-wrap: wrap;
+      display: block;
     }
   
     .page-section > h2 {
@@ -328,5 +327,9 @@
       padding-bottom: 10px;
       text-align: left;
       font-size: 7vw;
+    }
+
+    .flex-item:first-child {
+      min-height: 100px;
     }
   }
