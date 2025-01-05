@@ -231,19 +231,39 @@
   }
   
   .led-wall {
-    
+   background-image: url("https://unsplash.com/photos/man-on-running-field-9HI8UJMSdZA");
+   display: center;
+   background-size: cover;
+   background-position: center;
+   height: auto;
+   width: auto;
   }
   
   .react-calc {
-    
+   background-image: url("https://unsplash.com/photos/man-on-running-field-9HI8UJMSdZA");
+   display: center;
+   background-size: cover;
+   background-position: center;
+   height: auto;
+   width: auto;
   }
   
   .pastel-puzzles {
-    
+   background-image: url("https://unsplash.com/photos/man-on-running-field-9HI8UJMSdZA");
+   display: center;
+   background-size: cover;
+   background-position: center;
+   height: auto;
+   width: auto;
   }
   
   .surf-report {
-    
+    background-image: url("https://unsplash.com/photos/man-on-running-field-9HI8UJMSdZA");
+    display: center;
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    width: auto;
   }
   
   /* media queries */
@@ -283,4 +303,35 @@
   }
   
   /* TODO: add media query for a max-width of 768px */
+  @media screen and (max-width: 768px) {
+    header {
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
+    }
   
+    header h1 {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;
+    }
+  
+    header nav {
+      justify-content: center;
+    }
+  
+    .page-section > h2,
+    .page-section > div {
+      flex-wrap: wrap;
+    }
+  
+    .page-section > h2 {
+      border-right: none;
+      border-bottom: 4px solid var(--primary);
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      text-align: left;
+      font-size: 7vw;
+    }
+  }
